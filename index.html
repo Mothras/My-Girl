@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penembakan Cute 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Halaman Beranda -->
+    <div id="beranda">
+        <h1>Hai Pretty! 😊</h1>
+        <button id="mulaiButton">Let start </button>
+    </div>
+
+    <!-- Halaman Utama (Tersembunyi Awalnya) -->
+    <div id="halamanUtama" class="hidden">
+        <h2>Is It Okay If I Call You Mine? 💕</h2>
+        <div class="button-container">
+            <button id="yesButton">Yes Babe</button>
+            <button id="noButton">No I Cant </button>
+        </div>
+    </div>
+
+    <!-- Modal Popup -->
+    <div id="popupModal" class="modal hidden">
+        <div class="modal-content">
+            <p id="popupText"></p>
+            <button id="closePopup">OK</button>
+        </div>
+    </div>
+
+    <!-- Musik -->
+    <audio id="backgroundMusic" loop>
+        <source src="1.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
